@@ -1,2 +1,60 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="chat-global">
+
+    <div class="nav-top">
+        <div class="location">
+            <%= image_tag "left-chevron.svg" %>
+            <p>Back</p>
+        </div>
+
+        <div class="utilisateur">
+            <p>John Doe</p>
+            <p>Active Now</p>
+        </div>
+
+        <div class="logos-call">
+            <%= image_tag "phone.svg" %>
+            <%= image_tag "video-camera.svg" %>
+        </div>
+    </div>
+
+    <div class="conversation">
+        <div class="talk left">
+            <%= image_tag "avatar2.jpg" %>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="talk right">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <%= image_tag "avatar1.jpg" %>
+        </div>
+        <div class="talk left">
+            <%= image_tag "avatar2.jpg" %>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="talk right">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <%= image_tag "avatar1.jpg" %>
+        </div>
+    </div>
+
+
+    <form class="chat-form">
+
+        <div class="container-inputs-stuffs">
+
+            <div class="files-logo-cont">
+                <%= image_tag "paperclip.svg" %>
+            </div>
+
+            <div class="group-inp">
+                <textarea placeholder="Enter your message here" minlength="1" maxlength="1500"></textarea>
+                <%= image_tag "smile.svg" %>
+            </div>
+
+
+            <button class="submit-msg-btn">
+                <%= image_tag "send.svg" %>
+            </button>
+        </div>
+
+    </form>
+</div>
